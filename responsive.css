@@ -1,6 +1,7 @@
 @media (max-width: 1000px) {
   .top {
-    width: 50%;
+    width: auto;
+    height: auto;
     margin-bottom: 50px;
   }
 }
@@ -8,14 +9,22 @@
 
 @media (max-width: 670px) {
   .top {
-    width: 50%;
+    width: auto;
+    height: auto;
   }
+
+
+img {
+  width:100%;
+  max-width: 100%;
+  height: auto;
+
+}
 
 
   .container-profile {
     color: #FF6663;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -30,16 +39,14 @@
 
   .container-work {
     color: #FF6663;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
 
   .container-about {
     color: #FF6663;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
