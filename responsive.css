@@ -15,6 +15,7 @@
   .container-profile {
     color: #FF6663;
     max-width: 100%;
+    height: auto;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -30,6 +31,7 @@
   .container-work {
     color: #FF6663;
     max-width: 100%;
+    height: auto;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -37,6 +39,7 @@
   .container-about {
     color: #FF6663;
     max-width: 100%;
+    height: auto;
     margin-bottom: 30px;
     text-align: center;
   }
