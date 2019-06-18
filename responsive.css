@@ -14,7 +14,7 @@
 
   .container-profile {
     color: #FF6663;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
@@ -29,14 +29,14 @@
 
   .container-work {
     color: #FF6663;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
 
   .container-about {
     color: #FF6663;
-    width: 100%;
+    max-width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
