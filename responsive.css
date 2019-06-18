@@ -4,7 +4,14 @@
     height: auto;
     margin-bottom: 50px;
   }
+
+  .menu-icon {
+    display: none;
+  }
 }
+
+
+
 
 
 @media (max-width: 670px) {
@@ -61,3 +68,5 @@ img {
     margin-bottom: 30px;
     text-align: center;
   }
+
+}
