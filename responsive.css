@@ -1,0 +1,42 @@
+@media (max-width: 1000px) {
+  .top {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .top {
+    width: 100%;
+  }
+
+
+  .container-profile {
+    color: #FF6663;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+
+  }
+
+
+  .container-work {
+    color: #FF6663;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .container-about {
+    color: #FF6663;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
