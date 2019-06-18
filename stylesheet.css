@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  width: 1000px;
 
 }
 
@@ -19,6 +20,7 @@ li {
   height: 50px;
   margin: 0px;
   padding: 0px;
+ 
 }
 
 .menu-icon {
