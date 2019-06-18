@@ -19,6 +19,8 @@
 
   .menu-icon {
     display: block;
+    float: right;
+    padding: 5px 20px;
 
   }
 
