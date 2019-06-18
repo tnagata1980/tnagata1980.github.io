@@ -13,6 +13,15 @@
     height: auto;
   }
 
+  .header-list {
+    display:none;
+  }
+
+  .menu-icon {
+    display: block;
+
+  }
+
 
 img {
   width:100%;
