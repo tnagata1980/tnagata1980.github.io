@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
-  margin: 0px;
-  padding: 0px;
+
 }
+
 
 
 body {
@@ -14,30 +14,72 @@ li {
 }
 
 .header {
-  background-color: #F57653;
-  color: #fff;
+  background-color: #fff;
+  color: #FF6663;
   height: 50px;
+  margin: 0px;
+  padding: 0px;
+
 
 
 }
 
 .header-logo {
   float: left;
+  font-weight: bold;
   font-size: 25px;
-  padding: 10px 40px;
+  padding: 0px 20px;
 }
 
 .header-list li {
+  font-weight: bold;
   float: right;
-  padding: 15px 20px;
+  padding: 5px 20px;
 }
 
-.title {
-  color: #F57653;
+
+.top {
+  width: 100%;
   text-align: center;
 }
 
-.main {
-  padding: 30px 80px;
+.container-profile {
+  color: #FF6663;
+  width: 100%;
+  margin-bottom: 50px;
   text-align: center;
 }
+
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: justify;
+
+}
+
+
+.container-work {
+  color: #FF6663;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.container-about {
+  color: #FF6663;
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
+
+
+footer {
+  background-color: #FF6663;
+  text-align: center;
+  color: #fff;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px
