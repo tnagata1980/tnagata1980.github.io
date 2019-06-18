@@ -40,6 +40,8 @@ li {
 
 .top {
   width: 100%;
+  max-width: 100%;
+  height: auto;
   text-align: center;
 }
 
@@ -77,9 +79,12 @@ p {
 
 
 footer {
-  background-color: #FF6663;
+  border-top: thin solid #FF6663;
+  background-color: #fff;
   text-align: center;
-  color: #fff;
+  color: #FF6663;
   height: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
