@@ -19,9 +19,10 @@ li {
   height: 50px;
   margin: 0px;
   padding: 0px;
+}
 
-
-
+.menu-icon {
+  display: none;
 }
 
 .header-logo {
