@@ -5,17 +5,6 @@
     margin-bottom: 50px;
   }
 
-
-
-@media (max-width: 670px) {
-  .top {
-    width: auto;
-    height: auto;
-  }
-
-
-
-
   .header-logo {
     float: left;
     text-align: center;
@@ -25,14 +14,50 @@
   }
 
 
-  .header-list li {
+  .header-list a {
     font-size: 15px;
     float: right;
+    color: #FF6663;
     padding-top: 15px;
     padding-bottom: 20px;
 
   }
 
+
+
+@media (max-width: 670px) {
+  .top {
+    width: auto;
+    height: auto;
+  }
+
+  .header-logo {
+    float: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+  }
+
+  .header-list {
+    display: inline-block;
+  }
+
+  .header-list ul {
+    flex-direction: row-reverse;
+    float: none;
+
+  }
+  .header-list a {
+    font-size: 20px;
+    color: #FF6663;
+  }
+
+
+
+.top img {
+  margin-top: 100px;
+}
 
 
 img {
