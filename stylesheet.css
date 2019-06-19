@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  text-decoration: none;
 
 }
 
@@ -7,11 +8,11 @@
 
 body {
   font-family: "Avenir Next";
+
 }
 
-li {
-  list-style: none;
-}
+
+
 
 .header {
   background-color: #fff;
@@ -27,14 +28,17 @@ li {
   float: left;
   font-weight: bold;
   font-size: 25px;
-  padding: 0px 20px;
+  padding: 20px 20px;
 }
 
-.header-list li {
-  font-weight: bold;
+
+
+.header-list a {
   float: right;
+  font-weight: bold;
+  color: #FF6663;
   font-size: 20px;
-  padding: 5px 20px;
+  padding: 20px 20px;
 
 }
 
@@ -62,7 +66,7 @@ p {
 
 }
 
-a {
+main a {
   margin: 20px;
   padding: 10px;
   border-radius: 5px;
