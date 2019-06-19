@@ -33,12 +33,11 @@ li {
 .header-list li {
   font-weight: bold;
   float: right;
+  font-size: 20px;
   padding: 5px 20px;
+
 }
 
-.menu-icon {
-  display: none;
-}
 
 
 .top {
