@@ -26,7 +26,7 @@ li {
 }
 
 .menu-icon {
-  display: none;
+  visibility: hidden;
 }
 
 .header-logo {
