@@ -26,9 +26,10 @@ body {
 }
 
 
-.header-logo {
+.header-logo a {
   float: left;
   font-weight: bold;
+  color: #FF6663;
   font-size: 25px;
   padding: 20px 20px;
 }
