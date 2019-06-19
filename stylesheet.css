@@ -9,6 +9,7 @@
 
 body {
   font-family: "Avenir Next";
+  word-break: break-all;
 
 }
 
