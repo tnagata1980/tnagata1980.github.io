@@ -5,10 +5,11 @@
     margin-bottom: 50px;
   }
 
-  .header-logo {
+  .header-logo a {
     float: left;
     text-align: center;
     font-weight: bold;
+    color: #FF6663;
     font-size: 15px;
     padding-top: 15px;
   }
@@ -53,7 +54,6 @@
 
   .header-list ul {
     flex-direction: row-reverse;
-    float: none;
 
   }
   .header-list a {
