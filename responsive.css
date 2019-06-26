@@ -57,7 +57,7 @@
 
 
   .header-logo a {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 
   }
@@ -73,8 +73,8 @@
     display: inline-block;
     font-weight: bold;
     color: #FF6663;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 15px;
+    padding: 10px;
 
   }
 
