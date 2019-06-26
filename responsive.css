@@ -1,25 +1,26 @@
 @media (max-width: 1000px) {
   .top {
-    width: auto;
+    width: 1000px;
     height: auto;
     margin-bottom: 50px;
   }
 
   .header-logo a {
     float: left;
-    text-align: center;
     font-weight: bold;
     color: #FF6663;
-    font-size: 15px;
+    font-size: 25px;
     padding-top: 15px;
+    padding-left: 40px;
   }
 
 
   .header-list a {
-    font-size: 15px;
+    font-size: 25px;
     float: right;
     color: #FF6663;
     padding-top: 15px;
+    padding-right: 0px;
     padding-bottom: 20px;
 
   }
@@ -35,30 +36,38 @@
 
 @media (max-width: 670px) {
   .top {
-    width: auto;
+    width: 670px;
     height: auto;
   }
 
+
+
   .header-logo a {
-    float: none;
-    text-align: center;
     font-weight: bold;
     font-size: 20px;
-    padding-top: 15px;
-  }
-
-  .header-list {
-    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
 
   }
+
+
+
 
   .header-list ul {
-    flex-direction: row-reverse;
+    font-size: 0;
+    text-align: center;
 
   }
+
   .header-list a {
-    font-size: 13px;
+    flex-direction: row-reverse;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-size: 20px;
     color: #FF6663;
+
   }
 
 
@@ -98,6 +107,11 @@ img {
     text-align: center;
   }
 
+  .container-work a {
+    background-color: #FF6663;
+    color: #fff;
+  }
+
   .container-about {
     color: #FF6663;
     width: 100%;
@@ -105,4 +119,7 @@ img {
     text-align: center;
   }
 
-}
+  .container-about a {
+    background-color: #FF6663;
+    color: #fff;
+  }
