@@ -5,23 +5,35 @@
     margin-bottom: 50px;
   }
 
+
+  .header-logo {
+    text-align: center;
+    width: 100%;
+    height:100px;
+    margin-top: 50px;
+  }
+
+
   .header-logo a {
-    float: left;
     font-weight: bold;
     color: #FF6663;
-    font-size: 25px;
+    font-size: 30px;
     padding-top: 15px;
     padding-left: 40px;
   }
 
 
+  .header-list ul {
+    font-size: 0;
+    text-align: center;
+  }
+
   .header-list a {
-    font-size: 25px;
-    float: right;
+    display: inline-block;
+    font-weight: bold;
     color: #FF6663;
-    padding-top: 15px;
-    padding-right: 0px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    padding: 0px 50px;
 
   }
 
@@ -34,41 +46,38 @@
 
 
 
-@media (max-width: 670px) {
+@media (max-width: 640px) {
   .top {
-    width: 670px;
+    width: 640px;
     height: auto;
+    margin-bottom: 40px;
   }
+
 
 
 
   .header-logo a {
-    font-weight: bold;
-    font-size: 20px;
-    margin-left: 0px;
-    margin-top: 0px;
+    font-size: 30px;
+    text-align: center;
 
   }
-
 
 
 
   .header-list ul {
     font-size: 0;
     text-align: center;
-
   }
 
   .header-list a {
-    flex-direction: row-reverse;
     display: inline-block;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    font-size: 20px;
+    font-weight: bold;
     color: #FF6663;
+    font-size: 20px;
+    padding: 20px;
 
   }
+
 
 
 
