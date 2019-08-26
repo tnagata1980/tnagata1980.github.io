@@ -116,6 +116,11 @@ img {
     font-size: 20px;
   }
 
+  .profile-img a {
+    background-color: #fff;
+    color: #FF6663;
+    text-decoration: underline;
+
 
   .container-work {
     color: #FF6663;
@@ -127,6 +132,12 @@ img {
   .container-work a {
     background-color: #FF6663;
     color: #fff;
+  }
+
+  .work-img a {
+    background-color: #fff;
+    color: #FF6663;
+    text-decoration: underline;
   }
 
   .container-about {
