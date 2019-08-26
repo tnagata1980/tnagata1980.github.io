@@ -81,6 +81,12 @@ main a {
   color: #fff;
 }
 
+.profile-img a {
+  background-color: #fff;
+  color: #FF6663;
+  text-decoration: underline;
+
+}
 
 .container-work {
   color: #FF6663;
@@ -93,6 +99,15 @@ main a {
   background-color: #FF6663;
   color: #fff;
 }
+
+.work-img a {
+  background-color: #fff;
+  color: #FF6663;
+  text-decoration: underline;
+
+}
+
+
 
 .container-about {
   color: #FF6663;
